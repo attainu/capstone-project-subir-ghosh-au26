@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutSection.css";
-import { Button, Typography, Avatar } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import InstagramIcon from "@material-ui/icons/Instagram";
 const About = () => {
     const visitInstagram = () => {
@@ -20,19 +20,13 @@ const About = () => {
         <
         div >
         <
-        Avatar style = {
-            { width: "10vmax", height: "10vmax", margin: "2vmax 0" } }
-        src = "https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
-        alt = "Founder" /
-        >
-        <
         Typography > Subir Ghosh < /Typography> <
         Button onClick = { visitInstagram }
         color = "primary" >
         Visit Instagram <
         /Button> <
         span >
-        This is a sample wesbite made by Subir Ghosh. <
+        This is a sample wesbite made by subir ghosh <
         /span> <
         /div> <
         div className = "aboutSectionContainer2" >
@@ -40,7 +34,7 @@ const About = () => {
         Typography component = "h2" > Our Brands < /Typography>
 
         <
-        a href = "https://www.instagram.com/subir04"
+        a href = "https://www.instagram.com/subir04/"
         target = "blank" >
         <
         InstagramIcon className = "instagramSvgIcon" / >

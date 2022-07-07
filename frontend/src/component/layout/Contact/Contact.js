@@ -9,8 +9,8 @@ const Contact = () => {
         a className = "mailBtn"
         href = "mailto:subirsgghosh@gmail.com" >
         <
-        Button > Contact: subirsgghosh @gmail.com < /Button> < /
-        a > <
+        Button > Contact: subirsgghosh @gmail.com < /Button> <
+        /a> <
         /div>
     );
 };
